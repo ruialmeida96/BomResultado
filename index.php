@@ -31,6 +31,8 @@
   require_once('resources/templates/menuinicial.php');
 
   ?>
+<h1>Página Inicial</h1>
+
 
 </body>
 <!--   Core JS Files   -->
