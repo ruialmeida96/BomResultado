@@ -3,19 +3,19 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <!-- Favicons -->
-    <link rel="apple-touch-icon" href="./img/apple-icon.png">
-    <link rel="icon" href="./img/favicon.png">
-    <title>
-        Bom Resultado
-    </title>
-    <!--     Fonts and icons     -->
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
-    <link rel="stylesheet" href="./css/material-dashboard.css?v=2.0.0">
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <!-- Favicons -->
+  <link rel="apple-touch-icon" href="./img/apple-icon.png">
+  <link rel="icon" href="./img/favicon.png">
+  <title>
+    Bom Resultado
+  </title>
+  <!--     Fonts and icons     -->
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="./css/material-dashboard.css?v=2.0.0">
 </head>
 <body class="">
 
@@ -26,10 +26,11 @@
     </div>
   </noscript>
 
-<?php
+  <?php
 
-require_once('resources/templates/menuinicial.php');
- ?>
+  require_once('resources/templates/menuinicial.php');
+
+  ?>
 
 </body>
 <!--   Core JS Files   -->
@@ -49,13 +50,13 @@ require_once('resources/templates/menuinicial.php');
 <script src="./js/plugins/demo.js"></script>
 
 <script type="text/javascript">
-    $(document).ready(function() {
-        //init wizard
-        // demo.initMaterialWizard();
-        // Javascript method's body can be found in assets/js/demos.js
-        demo.initDashboardPageCharts();
-        demo.initCharts();
-    });
+$(document).ready(function() {
+  //init wizard
+  // demo.initMaterialWizard();
+  // Javascript method's body can be found in assets/js/demos.js
+  demo.initDashboardPageCharts();
+  demo.initCharts();
+});
 </script>
 
 </html>
