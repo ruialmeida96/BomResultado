@@ -51,6 +51,8 @@
 
   <div class="content">
     <div class="container-fluid">
+
+      <h2>Pagina Inicial</h2>
       <?php
       if(!empty($_GET['action'])){
         $action = basename($_GET['action']);
