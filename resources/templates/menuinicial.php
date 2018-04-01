@@ -63,10 +63,43 @@
             </div>
             <div class="modal-body">
               Email
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email"><br>
+              Password
+              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
 
             </div>
             <div class="modal-footer">
+              <div  style="float:right;">
+              <button type="button" class="btn btn-info" href="#exampleModal" data-toggle="modal">Registar</button>
+            </div>
+              <button type="button" class="btn btn-success">Entrar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel1" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel1">Efetuar Login</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              Email
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email"><br>
+              Password
+              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+              Password
+              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+
+            </div>
+            <div class="modal-footer">
+              <div  style="float:right;">
+              <button type="button" class="btn btn-info" >Registar</button>
+            </div>
               <button type="button" class="btn btn-success">Entrar</button>
             </div>
           </div>
